@@ -51,6 +51,30 @@ public static class SeedData
                     Genre = "Western",
                     Rating = "R",
                     Price = 3.99M
+                },
+                new Movie
+                {
+                   Title = "The Matrix",
+                    ReleaseDate = DateTime.Parse("1999-3-31"),
+                    Genre = "Sci-Fi",
+                    Rating = "PG-13",
+                    Price = 8.99M 
+                },
+                new Movie
+                {
+                   Title = "Deep Impact",
+                    ReleaseDate = DateTime.Parse("1998-5-8"),
+                    Genre = "Sci-Fi",
+                    Rating = "PG-13",
+                    Price = 7.99M 
+                },
+                new Movie
+                {
+                   Title = "The Lord of the Rings: The Fellowship of the Ring",
+                    ReleaseDate = DateTime.Parse("2001-12-19"),
+                    Genre = "Fantasy",
+                    Rating = "PG-13",
+                    Price = 10.99M 
                 }
             );
             context.SaveChanges();
